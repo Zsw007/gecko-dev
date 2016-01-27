@@ -285,6 +285,8 @@ sizeof(XPCOM_DLL) - 1))
 
 int main(int argc, char* argv[])
 {
+  printf("hello Wayne Zhang\n");
+
   mozilla::TimeStamp start = mozilla::TimeStamp::Now();
 
 #ifdef XP_MACOSX
